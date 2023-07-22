@@ -6,7 +6,8 @@
     <title>CREATIVE SCROLL</title>
 
     <!-- Scripts -->
-    <!-- defer - команда яка вказує,що загрузка файлів робити після загрузки HTML  -->
+    <!-- defer - команда яка вказує,що загрузку файлів робити після загрузки HTML  -->
+
     <script src="./libs/gsap/gsap.min.js" defer></script>
     <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
     <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
@@ -17,48 +18,55 @@
 
 </head>
 <body>
-    <header>
-        <img class="hero" src="./img/hero.png" alt="Hero">
-        <div class="container">
-            <div class="main-header">
-                <h1 class="main-title">creative scroll</h1>
+
+    <div class="wrapper">
+        <div class="content">
+
+        <header>
+            <img  data-speed = ".6" class="hero" src="./img/hero.png" alt="Hero">
+            <div class="container">
+                <div class="main-header">
+                    <h1 class="main-title">creative scroll</h1>
+                </div>
             </div>
-        </div>
-    </header>
-
-    <section class="portfolio">
-        <div class="container">
-            <main class="gallery">
-                <div class="gallery__left">
-
-                    <img class="gallery__item" src="./img/work/1.jpg" alt="work_1">
-                    <img class="gallery__item" src="./img/work/2.jpg" alt="work_2">
-
-                    <div class="text-block gallery__item">
-                        <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
-                        <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p> 
+        </header>
+    
+        <section class="portfolio">
+            <div class="container">
+                <main class="gallery">
+                    <div class="gallery__left">
+    
+                        <img class="gallery__item" src="./img/work/1.jpg" alt="work_1">
+                        <img class="gallery__item" src="./img/work/2.jpg" alt="work_2">
+    
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p> 
+                        </div>
+    
+                        <img class="gallery__item" src="./img/work/6.jpg" alt="work_6">
+    
+    
                     </div>
-
-                    <img class="gallery__item" src="./img/work/6.jpg" alt="work_6">
-
-
-                </div>
-                <div class="gallery__right">
-
-                    <div class="text-block gallery__item">
-                        <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
-                        <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p> 
+                    <div class="gallery__right">
+    
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p> 
+                        </div>
+    
+                        <img class="gallery__item" src="./img/work/3.jpg" alt="work_3">
+                        <img class="gallery__item" src="./img/work/4.jpg" alt="work_4">
+                        <img class="gallery__item" src="./img/work/5.jpg" alt="work_5">
+    
                     </div>
-
-                    <img class="gallery__item" src="./img/work/3.jpg" alt="work_3">
-                    <img class="gallery__item" src="./img/work/4.jpg" alt="work_4">
-                    <img class="gallery__item" src="./img/work/5.jpg" alt="work_5">
-
-                </div>
-
-            </main>
+    
+                </main>
+            </div>
+        </section>
         </div>
-    </section>
+    </div>
+
 
 
 
