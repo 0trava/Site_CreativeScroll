@@ -17,7 +17,27 @@
 }
 
 @font-face {
-    font-family: outfit;
+    font-family: outfit-c;
     src: url(../fonts/outfit-regular.woff2);
 }
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: 50px;
+    color: var(--color-header);
+    font-family: raleway-c;
+    overflow: hidden;
+}
+
+
+.hero {
+    width: calc(var(--index) * 36);
+    position: absolute;
+    left: 37vw;
+    top: 8vh;
+
+
+}
+
+
 
