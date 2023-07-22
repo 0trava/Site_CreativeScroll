@@ -39,5 +39,16 @@ body {
 
 }
 
+.container { 
+    padding: 0 7vw;
+
+}
+
+.main-title {
+    font-size: calc(var(--index) * 8);
+    position: absolute;
+    width: min-content;
+}
+
 
 
