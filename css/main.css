@@ -26,7 +26,12 @@ body {
     background-size: 50px;
     color: var(--color-header);
     font-family: raleway-c;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: outfit-c;
+
 }
 
 
@@ -39,6 +44,10 @@ body {
 
 }
 
+.main-header {
+    height: 100vh;
+}
+
 .container { 
     padding: 0 7vw;
 
@@ -48,6 +57,8 @@ body {
     font-size: calc(var(--index) * 8);
     position: absolute;
     width: min-content;
+    bottom: 10vh;
+    line-height: .9;
 }
 
 
