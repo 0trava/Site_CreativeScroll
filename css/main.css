@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     left: 37vw;
     top: 8vh;
+    z-index: -1;
 
 
 }
@@ -59,6 +60,20 @@ h1, h2, h3, h4, h5 {
     width: min-content;
     bottom: 10vh;
     line-height: .9;
+}
+
+/* gallery */
+
+.gallery {
+    display: flex;
+}
+
+.gallery > * {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 
