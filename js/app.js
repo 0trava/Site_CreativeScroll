@@ -22,4 +22,18 @@ if (ScrollTrigger.isTouch !==1) {
 		}
 	})
 
+    let itemsL = gsap.utils.toArray('.gallery__left .gallery__item')
+
+	itemsL.forEach(item => {
+		gsap.fromTo(item, { opacity: 0, x: -50 }, {
+			opacity: 1, x: 0,
+			scrollTrigger: {
+				trigger: item,
+				start: '-850',
+				end: '-100',
+				scrub: true
+			}
+		})
+	})
+
 }
