@@ -22,6 +22,11 @@
     src: url(../fonts/outfit-regular.woff2);
 }
 
+/* Will-change */
+.content, .hero, .main-header, .gallery > * {
+    will-change: transform;
+}
+
 body {
     background-image: url(../img/bg.jpg);
     background-size: 50px;
@@ -29,6 +34,8 @@ body {
     font-family: raleway-c;
     overflow-x: hidden;
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-family: outfit-c;
