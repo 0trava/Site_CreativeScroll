@@ -22,6 +22,8 @@ if (ScrollTrigger.isTouch !==1) {
 		}
 	})
 
+    // Gallery - rools for left part
+
     let itemsL = gsap.utils.toArray('.gallery__left .gallery__item')
 
 	itemsL.forEach(item => {
@@ -32,6 +34,22 @@ if (ScrollTrigger.isTouch !==1) {
 				start: '-850',
 				end: '-100',
 				scrub: true
+			}
+		})
+	})
+
+    // Gallery - rools for right part
+
+	let itemsR = gsap.utils.toArray('.gallery__right .gallery__item')
+
+	itemsR.forEach(item => {
+		gsap.fromTo(item, { opacity: 0, x: 50 }, {
+			opacity: 1, x: 0,
+			scrollTrigger: {
+				trigger: item,
+				start: '-750', // Коли почати ефект
+				end: 'top', // Коли закінчити ефект
+				scrub: true // Повернення до початкового стану туди-сюди
 			}
 		})
 	})
