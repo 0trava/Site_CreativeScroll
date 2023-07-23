@@ -1,7 +1,7 @@
 # Creative Scroll
 
-PRACTICAL WORK on creating a site with a cool scroll animation (GSAP). When laying out the site, a ready-made scroll code was used with a lesson on connecting and configuring it.
-When writing the site, a rubber layout with modern effects was used.
+PRACTICAL WORK on creating a site with a cool scroll animation (GSAP). In work was used a ready-made scroll code with practic on connecting and configuring  it.
+This site has got a rubber layout with modern effects in our date.
 
 Link to the lesson with materials - <a href="https://webdesign-master.ru/blog/html-css/creative-scroll-website.html">here</a>
 
