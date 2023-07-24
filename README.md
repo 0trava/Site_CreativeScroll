@@ -9,3 +9,6 @@ Link to the lesson with materials - <a href="https://webdesign-master.ru/blog/ht
 
 ![image](https://github.com/0trava/Site_CreativeScroll/assets/102797527/74668bb5-adaf-4c35-8a31-94ae7ae4455d)
 
+![image](https://github.com/0trava/Site_CreativeScroll/assets/102797527/04582f1b-c705-4070-af28-d4b49fa0beb4)
+
+
